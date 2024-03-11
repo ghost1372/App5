@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App5", "App5\App5.csproj", "{60DCD330-602C-45EA-A0DF-B50745B77673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F9D07C7-0DBB-4A48-A85B-A520D298D02F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Debug|ARM64.Build.0 = Debug|ARM64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Debug|x64.ActiveCfg = Debug|x64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Debug|x64.Build.0 = Debug|x64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Debug|x64.Deploy.0 = Debug|x64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Debug|x86.ActiveCfg = Debug|x86
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Debug|x86.Build.0 = Debug|x86
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Debug|x86.Deploy.0 = Debug|x86
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Release|ARM64.ActiveCfg = Release|ARM64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Release|ARM64.Build.0 = Release|ARM64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Release|ARM64.Deploy.0 = Release|ARM64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Release|x64.ActiveCfg = Release|x64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Release|x64.Build.0 = Release|x64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Release|x64.Deploy.0 = Release|x64
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Release|x86.ActiveCfg = Release|x86
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Release|x86.Build.0 = Release|x86
+		{60DCD330-602C-45EA-A0DF-B50745B77673}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6459CCA0-FF93-4CD6-81B9-E9447CDB9230}
+	EndGlobalSection
+EndGlobal

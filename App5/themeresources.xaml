@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App5">
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Default">
+            <StaticResource x:Key="SegmentedBackground" ResourceKey="ControlAltFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedBorderBrush" ResourceKey="ControlStrokeColorDefaultBrush" />
+
+
+            <!--  Background  -->
+            <StaticResource x:Key="SegmentedItemBackground" ResourceKey="ControlFillColorTransparentBrush" />
+            <StaticResource x:Key="SegmentedItemBackgroundPointerOver" ResourceKey="SubtleFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedItemBackgroundSelected" ResourceKey="ControlFillColorDefaultBrush" />
+            <StaticResource x:Key="SegmentedItemBackgroundPressed" ResourceKey="SubtleFillColorTertiaryBrush" />
+            <StaticResource x:Key="SegmentedItemBackgroundDisabled" ResourceKey="ControlFillColorDisabledBrush" />
+
+            <!--  BorderBrush  -->
+            <StaticResource x:Key="SegmentedItemBorderBrush" ResourceKey="ControlFillColorTransparentBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushPointerOver" ResourceKey="SubtleFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushSelected" ResourceKey="ControlElevationBorderBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushPressed" ResourceKey="SubtleFillColorTertiaryBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushDisabled" ResourceKey="ControlAltFillColorSecondaryBrush" />
+            <!--  Foreground  -->
+            <StaticResource x:Key="SegmentedItemForeground" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="SegmentedItemForegroundPointerOver" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="SegmentedItemForegroundSelected" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="SegmentedItemForegroundPressed" ResourceKey="TextFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedItemForegroundDisabled" ResourceKey="TextFillColorDisabledBrush" />
+
+            <!--  Pill  -->
+            <StaticResource x:Key="SegmentedPillBackground" ResourceKey="AccentFillColorDefaultBrush" />
+            <StaticResource x:Key="SegmentedPillBackgroundPointerOver" ResourceKey="AccentFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedPillBackgroundPressed" ResourceKey="AccentFillColorTertiaryBrush" />
+            <StaticResource x:Key="SegmentedPillBackgroundDisabled" ResourceKey="AccentFillColorDisabledBrush" />
+
+            <Thickness x:Key="SegmentedItemBorderThickness">1</Thickness>
+            <x:Double x:Key="SegmentedItemDisabledOpacity">0.55</x:Double>
+
+
+            <!--  ButtonSegmentedStyle  -->
+            <!--  Background  -->
+            <StaticResource x:Key="ButtonItemBackground" ResourceKey="ControlFillColorTransparentBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundPointerOver" ResourceKey="SubtleFillColorSecondaryBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundPressed" ResourceKey="SubtleFillColorTertiary" />
+            <StaticResource x:Key="ButtonItemBackgroundSelected" ResourceKey="AccentFillColorDefaultBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundSelectedPointerOver" ResourceKey="AccentFillColorSecondaryBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundSelectedPressed" ResourceKey="AccentFillColorTertiaryBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundDisabled" ResourceKey="ControlFillColorTransparentBrush" />
+
+            <!--  Foreground  -->
+            <StaticResource x:Key="ButtonItemForeground" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundPointerOver" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundPressed" ResourceKey="TextFillColorSecondaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundSelected" ResourceKey="TextOnAccentFillColorPrimaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundSelectedPointerOver" ResourceKey="TextOnAccentFillColorPrimaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundSelectedPressed" ResourceKey="TextOnAccentFillColorSecondaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundDisabled" ResourceKey="TextFillColorDisabledBrush" />
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Light">
+            <StaticResource x:Key="SegmentedBackground" ResourceKey="ControlAltFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedBorderBrush" ResourceKey="ControlStrokeColorDefaultBrush" />
+
+            <!--  Background  -->
+            <StaticResource x:Key="SegmentedItemBackground" ResourceKey="ControlFillColorTransparentBrush" />
+            <StaticResource x:Key="SegmentedItemBackgroundPointerOver" ResourceKey="SubtleFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedItemBackgroundSelected" ResourceKey="ControlFillColorDefaultBrush" />
+            <StaticResource x:Key="SegmentedItemBackgroundPressed" ResourceKey="SubtleFillColorTertiaryBrush" />
+            <StaticResource x:Key="SegmentedItemBackgroundDisabled" ResourceKey="ControlFillColorDisabledBrush" />
+
+            <!--  BorderBrush  -->
+            <StaticResource x:Key="SegmentedItemBorderBrush" ResourceKey="ControlFillColorTransparentBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushPointerOver" ResourceKey="SubtleFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushSelected" ResourceKey="ControlElevationBorderBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushPressed" ResourceKey="SubtleFillColorTertiaryBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushDisabled" ResourceKey="ControlAltFillColorSecondaryBrush" />
+
+            <!--  Foreground  -->
+            <StaticResource x:Key="SegmentedItemForeground" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="SegmentedItemForegroundPointerOver" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="SegmentedItemForegroundSelected" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="SegmentedItemForegroundPressed" ResourceKey="TextFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedItemForegroundDisabled" ResourceKey="TextFillColorDisabledBrush" />
+
+            <!--  Pill  -->
+            <StaticResource x:Key="SegmentedPillBackground" ResourceKey="AccentFillColorDefaultBrush" />
+            <StaticResource x:Key="SegmentedPillBackgroundPointerOver" ResourceKey="AccentFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedPillBackgroundPressed" ResourceKey="AccentFillColorTertiaryBrush" />
+            <StaticResource x:Key="SegmentedPillBackgroundDisabled" ResourceKey="AccentFillColorDisabledBrush" />
+
+            <Thickness x:Key="SegmentedItemBorderThickness">1</Thickness>
+            <x:Double x:Key="SegmentedItemDisabledOpacity">0.55</x:Double>
+
+
+            <!--  ButtonSegmentedStyle  -->
+            <!--  Background  -->
+            <StaticResource x:Key="ButtonItemBackground" ResourceKey="ControlFillColorTransparentBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundPointerOver" ResourceKey="SubtleFillColorSecondaryBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundPressed" ResourceKey="SubtleFillColorTertiary" />
+            <StaticResource x:Key="ButtonItemBackgroundSelected" ResourceKey="AccentFillColorDefaultBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundSelectedPointerOver" ResourceKey="AccentFillColorSecondaryBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundSelectedPressed" ResourceKey="AccentFillColorTertiaryBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundDisabled" ResourceKey="ControlFillColorTransparentBrush" />
+
+            <!--  Foreground  -->
+            <StaticResource x:Key="ButtonItemForeground" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundPointerOver" ResourceKey="TextFillColorPrimaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundPressed" ResourceKey="TextFillColorSecondaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundSelected" ResourceKey="TextOnAccentFillColorPrimaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundSelectedPointerOver" ResourceKey="TextOnAccentFillColorPrimaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundSelectedPressed" ResourceKey="TextOnAccentFillColorSecondaryBrush" />
+            <StaticResource x:Key="ButtonItemForegroundDisabled" ResourceKey="TextFillColorDisabledBrush" />
+        </ResourceDictionary>
+
+        <ResourceDictionary x:Key="HighContrast">
+            <StaticResource x:Key="SegmentedBackground" ResourceKey="SystemColorButtonFaceColor" />
+            <StaticResource x:Key="SegmentedBorderBrush" ResourceKey="SystemColorHighlightColorBrush" />
+
+            <!--  Background  -->
+            <StaticResource x:Key="SegmentedItemBackground" ResourceKey="SystemColorButtonFaceColor" />
+            <StaticResource x:Key="SegmentedItemBackgroundPointerOver" ResourceKey="SystemColorHighlightColor" />
+            <StaticResource x:Key="SegmentedItemBackgroundSelected" ResourceKey="SystemColorHighlightColor" />
+            <StaticResource x:Key="SegmentedItemBackgroundPressed" ResourceKey="SystemColorHighlightColor" />
+            <StaticResource x:Key="SegmentedItemBackgroundDisabled" ResourceKey="SystemControlTransparentBrush" />
+
+            <!--  BorderBrush  -->
+            <StaticResource x:Key="SegmentedItemBorderBrush" ResourceKey="ControlAltFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushPointerOver" ResourceKey="ControlAltFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushSelected" ResourceKey="ControlElevationBorderBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushPressed" ResourceKey="ControlAltFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedItemBorderBrushDisabled" ResourceKey="ControlAltFillColorSecondaryBrush" />
+
+            <!--  Foreground  -->
+            <StaticResource x:Key="SegmentedItemForeground" ResourceKey="SystemColorButtonTextColor" />
+            <StaticResource x:Key="SegmentedItemForegroundPointerOver" ResourceKey="SystemColorHighlightTextColor" />
+            <StaticResource x:Key="SegmentedItemForegroundSelected" ResourceKey="SystemColorHighlightTextColor" />
+            <StaticResource x:Key="SegmentedItemForegroundPressed" ResourceKey="SystemColorHighlightTextColor" />
+            <StaticResource x:Key="SegmentedItemForegroundDisabled" ResourceKey="SystemColorGrayTextColor" />
+
+            <!--  Pill  -->
+            <StaticResource x:Key="SegmentedPillBackground" ResourceKey="AccentFillColorDefaultBrush" />
+            <StaticResource x:Key="SegmentedPillBackgroundPointerOver" ResourceKey="AccentFillColorSecondaryBrush" />
+            <StaticResource x:Key="SegmentedPillBackgroundPressed" ResourceKey="AccentFillColorTertiaryBrush" />
+            <StaticResource x:Key="SegmentedPillBackgroundDisabled" ResourceKey="AccentFillColorDisabledBrush" />
+
+            <Thickness x:Key="SegmentedItemBorderThickness">1</Thickness>
+            <x:Double x:Key="SegmentedItemDisabledOpacity">0.55</x:Double>
+
+
+            <!--  ButtonSegmentedStyle  -->
+            <!--  Background  -->
+            <StaticResource x:Key="ButtonItemBackground" ResourceKey="ControlFillColorTransparentBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundPointerOver" ResourceKey="SystemColorHighlightTextColorBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundPressed" ResourceKey="SystemColorHighlightTextColorBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundSelected" ResourceKey="SystemControlHighlightAccentBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundSelectedPointerOver" ResourceKey="SystemColorButtonTextColorBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundSelectedPressed" ResourceKey="SystemColorHighlightTextColorBrush" />
+            <StaticResource x:Key="ButtonItemBackgroundDisabled" ResourceKey="SystemControlBackgroundBaseLowBrush" />
+
+            <!--  Foreground  -->
+            <StaticResource x:Key="ButtonItemForeground" ResourceKey="SystemColorButtonTextColorBrush" />
+            <StaticResource x:Key="ButtonItemForegroundPointerOver" ResourceKey="SystemControlHighlightBaseHighBrush" />
+            <StaticResource x:Key="ButtonItemForegroundPressed" ResourceKey="SystemControlHighlightBaseHighBrush" />
+            <StaticResource x:Key="ButtonItemForegroundSelected" ResourceKey="SystemControlHighlightAltChromeWhiteBrush" />
+            <StaticResource x:Key="ButtonItemForegroundSelectedPointerOver" ResourceKey="SystemColorButtonFaceColorBrush" />
+            <StaticResource x:Key="ButtonItemForegroundSelectedPressed" ResourceKey="SystemColorHighlightColorBrush" />
+            <StaticResource x:Key="ButtonItemForegroundDisabled" ResourceKey="SystemControlDisabledBaseMediumLowBrush" />
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>

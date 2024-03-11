@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="App5.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:App5"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+    <StackPanel Margin="10" Spacing="20">
+        <SelectorBar HorizontalAlignment="Stretch">
+            <SelectorBarItem Icon="Add" Text="Item 1" />
+            <SelectorBarItem Icon="Remove" Text="Item 2" />
+            <SelectorBarItem Icon="Find" Text="Item 3" />
+            <SelectorBarItem Icon="Edit" Text="Item 4" />
+        </SelectorBar>
+
+        <SelectorBar HorizontalAlignment="Stretch" local:SelectorAttach.SelectionMode="Multiple">
+            <SelectorBarItem Icon="Add" Text="Item 1" />
+            <SelectorBarItem Icon="Remove" Text="Item 2" />
+            <SelectorBarItem Icon="Find" Text="Item 3" />
+            <SelectorBarItem Icon="Edit" Text="Item 4" />
+        </SelectorBar>
+        <SelectorBar HorizontalAlignment="Stretch" Style="{StaticResource SegmentedVerticalStyle}">
+            <SelectorBarItem Icon="Add" Text="Item 1" />
+            <SelectorBarItem Icon="Remove" Text="Item 2" />
+            <SelectorBarItem Icon="Find" Text="Item 3" />
+            <SelectorBarItem Icon="Edit" Text="Item 4" />
+        </SelectorBar>
+        <SelectorBar>
+            <SelectorBarItem Icon="Find" />
+            <SelectorBarItem Icon="Calendar" />
+            <SelectorBarItem Icon="List" />
+        </SelectorBar>
+        <SelectorBar Style="{StaticResource SegmentedVerticalStyle}">
+            <SelectorBarItem Icon="Find" />
+            <SelectorBarItem Icon="Calendar" />
+            <SelectorBarItem Icon="List" />
+        </SelectorBar>
+    </StackPanel>
+</Page>
+
